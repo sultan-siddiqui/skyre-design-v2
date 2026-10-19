@@ -1,0 +1,23 @@
+{
+  "source": "D:\\SULTAN-macbook\\SULTAN\\PROJECTS\\SKYRE\\skyre-bechmark-template\\skyre-brand-story.html",
+  "source_sha256": "25f124162b394c358e0349ffe750fd18ada15302e3c1e3fc3293935325acc899",
+  "home": [
+    "Prologue hero",
+    "Promise ticker",
+    "Company overview",
+    "Who We Are",
+    "Eight Roles",
+    "Vision 2030"
+  ],
+  "about": [
+    "symbol-story",
+    "philosophy",
+    "dimensions",
+    "geometry",
+    "foundations",
+    "values",
+    "closing"
+  ],
+  "motion": "Original CSS keyframes and original JavaScript drawing/interaction routines, with scoped selectors and lifecycle cleanup",
+  "font": "Cairo, per approved first-pass instruction"
+}

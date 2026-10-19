@@ -1,0 +1,7 @@
+0: Copyright 2009 The Cairo Project Authors (https://github.com/Gue3bara/Cairo)
+
+1: Cairo
+
+2: Regular
+
+14: http://scripts.sil.org/OFL

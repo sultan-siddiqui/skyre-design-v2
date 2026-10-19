@@ -1,0 +1,27 @@
+/* Corporate shell integration only. The animation definitions live in benchmark.css. */
+.benchmark{position:relative;isolation:isolate;--font-en:'Cairo',system-ui,sans-serif;--font-ar:'Cairo',system-ui,sans-serif;--o:#87a7c6;--i:#947b4c;--wm:#f3ead9}
+.benchmark .benchmark-content{position:relative;z-index:2}
+.benchmark .hero{position:relative;height:calc(100svh - 94px);min-height:660px;border:0;background:transparent}
+.benchmark .hero-in{position:relative;z-index:2}
+.benchmark .hero-star{right:auto;height:auto;transform:translate(-50%,-50%);filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 30px rgba(194,165,111,.9)) drop-shadow(0 0 70px rgba(135,167,198,1));animation:none}
+.benchmark{overflow-x:clip;overflow-y:visible}
+.benchmark h1.big{font-size:clamp(2.1rem,4.8vw,4.4rem);max-width:18ch;line-height:1.12}
+.benchmark #symbol-story{padding-top:80px}
+.benchmark .stage-wrap{top:94px;height:calc(100svh - 94px)}
+.benchmark .story{background:transparent;border:0}
+.benchmark .facts{padding:0;background:none;border:0}
+.benchmark .fact{padding-left:0;border-left:0}
+.benchmark .hero .eyebrow{color:var(--gold-l)}
+.benchmark .eyebrow{white-space:normal}
+.benchmark #loader{background:var(--night);z-index:150}
+.benchmark-loading{overflow:hidden}
+.benchmark-loading #header{visibility:hidden}
+.benchmark-loading .review-switch{visibility:hidden}
+.benchmark .sec,.benchmark #company,.benchmark #symbol-story{scroll-margin-top:110px}
+.benchmark .hero .scroll-cue{cursor:pointer}
+.benchmark-paused .rv,.motion-off .benchmark .rv{opacity:1;transform:none}
+.benchmark-paused *,.benchmark-paused *:before,.benchmark-paused *:after{animation-play-state:paused!important;transition:none!important}
+.benchmark .who-stage:focus-visible,.benchmark .role:focus-visible{outline:2px solid var(--sky);outline-offset:6px}
+.benchmark .hero .lead{max-width:62ch}
+@media(max-width:820px){.benchmark .hero{min-height:720px;height:calc(100svh - 80px)}.benchmark .stage-wrap{top:80px;height:50svh}.benchmark #symbol-story{padding-top:52px}.benchmark .hero-in{padding-top:64px}}
+@media(max-width:560px){.benchmark h1.big{font-size:clamp(32px,9vw,46px)}.benchmark .hero{min-height:760px}.benchmark .hero-in{padding-bottom:50px}}
